@@ -1,4 +1,6 @@
-
+.navbar-custom {
+    background-color: #FFC0CB; /* reemplaza este valor con el código de color para el rosa que deseas utilizar */
+  }
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap');
 
