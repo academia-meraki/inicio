@@ -1,8 +1,23 @@
+.bg-pink
+{
+    background-color: #FFC0CB;
+}
+
 .navbar-custom {
     background-color: #FFC0CB; /* reemplaza este valor con el código de color para el rosa que deseas utilizar */
   }
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700;800;900&display=swap');
+
+
+.contatoIcon{
+    font-size: 6rem !important;
+    color:#FFC0CB !important;
+}
+
+.text-pink{
+    color:#FFC0CB !important;
+}
+
 
 :root {
     --white: #ffffff;
@@ -15,8 +30,7 @@
 
 /* reset & helpers */
 body {
-    font-family: "Barlow", sans-serif;
-    line-height: 1.8;
+    font-family: 'Poppins', sans-serif;    line-height: 1.8;
     color: var(--body);
 }
 
@@ -56,11 +70,11 @@ section {
 
 .navbar-brand {
     font-size: 28px;
-    text-transform: uppercase;
+    
 }
 
 .navbar .navbar-nav .nav-link {
-    text-transform: uppercase;
+    
     font-size: 14px;
 }
 
@@ -112,7 +126,7 @@ section {
     border-radius: 100px;
     font-size: 14px;
     font-weight: 700;
-    text-transform: uppercase;
+    
 }
 
 
@@ -130,7 +144,7 @@ section {
 
 .intro h1 {
     font-weight: 900;
-    text-transform: uppercase;
+    
     margin-top: 16px;
     margin-bottom: 16px;
 }
@@ -171,7 +185,7 @@ section {
 }
 
 .link-arrow {
-    text-transform: uppercase;
+    
     display: flex;
     align-items: center;
 }
