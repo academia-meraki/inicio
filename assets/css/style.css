@@ -1,3 +1,11 @@
+.mapaChico{
+    display: none;
+}
+
+.iconService{
+    width: 8rem;
+}
+
 .bg-pink
 {
     background-color: #FFC0CB;
@@ -90,11 +98,21 @@ section {
     margin-left: 5px;
 }
 
-@media (max-width: 992px) {
-    .navbar {
-        background-color: var(--dark);
+@media (max-width: 600px) {
+
+    .ocultar{
+        display: none;
     }
-}
+    
+    .mapaGrande{
+        display: none;
+    }
+
+    .mapaChico{
+        display: block;
+    }
+
+  }
 
 /* hero */
 #hero {
